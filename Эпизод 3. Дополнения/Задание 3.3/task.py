@@ -51,4 +51,5 @@ def task_5(shifr_key):
             new_place = place + shifr_key
             sentence[j] = alphavit[new_place]
         text[i] = ''.join(sentence)
+    text.remove('')
     return text
